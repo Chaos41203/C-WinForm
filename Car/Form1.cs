@@ -15,7 +15,7 @@ namespace Car
     public partial class Form1 : Form
     {
         //Build the connection Object
-        SqlConnection sqlConn = new SqlConnection(@"Data Source=10.1.200.203;Initial Catalog=Test;User ID=sa;Password=1qaz@WSX");
+        SqlConnection sqlConn = new SqlConnection(@"Data Source=host;Initial Catalog=dbname;User ID=username;Password=pwd");
 
         //Needed for the dgvCar_DoubleClick -> Select the cell
         int CID = 0;
